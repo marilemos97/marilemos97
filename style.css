@@ -1,0 +1,212 @@
+/* Características gerais */
+body{
+   background: mediumpurple;
+   margin: 0 0 0 0;
+   font-family: 'Courier New', Courier, monospace;
+}
+a{
+   text-decoration-line: none;
+   font-weight: bolder;
+}
+ul{
+   list-style:none;
+   display: flex;
+   margin-right: 1rem;
+}
+p{
+   font-size: 25px;
+   font-weight: 350pt;
+   align-self: justify ;
+}
+
+/* Menu */
+header{
+   background: yellowgreen;
+   width: 100%;
+   margin-top: -2%;
+   height: 120px;
+   border: 10px yellowgreen solid;
+   border-left: 10px yellowgreen solid;
+}
+h1{
+   margin-left: 45%;
+   margin-right: 50%;
+   padding-top: 2.5%;
+}
+a.menu{
+   border: 3px lightblue inset;
+   margin-right: 0.9rem;
+   border-radius: 30px;
+   background-color: lightblue;
+   color: black;
+  /*  padding5-top: -50%; */
+   cursor: pointer;
+   margin-top: -70%;
+}
+#navegador{
+   margin-right:30%;
+}
+
+/* Resumo pessoal */
+.pessoa{
+   padding-top: 10%;
+/*  border: 2px orange dashed; */
+   padding: 1rem;
+   text-align: center;
+   width: auto;
+}
+.centro{
+   font-size: 35px;
+}
+
+/* Ícones  */
+.icon1,.icon2,.icon3{
+   width: 5rem;
+}
+.ico1,.ico2,.ico3,.ico4{
+   width: 5rem;
+}
+.know,.social{
+   margin-top: 3%;
+   display: flex;
+   width: auto;
+   padding:2px;
+}
+.kn1,.kn2,.kn3,kn4{
+   flex:1;
+}
+.so1,.so2,.so3{
+   flex: 1;
+}
+.social{
+   padding-left: 1rem;
+}
+
+/* projetos */
+#cardapio, #curriculo, #joan{
+   width: 75%;
+}
+#projetos{
+   margin-top: 3%;
+   display: flex;
+   height: 320px;
+   width: auto;
+   flex-direction: nowrap;
+   align-content: space-around;
+   padding-left: 1rem;
+}
+.item1,.item2,.item3{
+   border: 10px cadetblue groove;
+   background: transparent;
+   margin-right: 2rem;
+   flex: 10%;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+projeto .img{
+   width: 40px;
+   margin-left: 0;
+}
+.links{
+   display: flex;
+   justify-content: space-between;
+   width: 50%;
+   padding-left: 1rem;
+}
+.li1{
+   flex:35%;
+}
+.site{
+   width: 3rem;
+   margin-right: 1rem;
+}
+.li:hover{
+   box-shadow: 2px 3px 4px lightblue;
+   transition: box-shadow 0.1s;
+
+}
+
+/* CONTATO */
+.cont{
+   margin-top: 5rem;
+   margin-bottom: 1rem;
+/*   background-color: palegreen;*/
+   font-size: 30px;
+   letter-spacing: 5px;
+   width: 99%;
+   text-shadow: 0 0 3px lightblue, 0 6px 5px palegreen;
+}
+#contato{
+   width: 90%;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-left: 2rem;
+}
+.form{
+   width: 50%;
+   max-width: 32rem;
+   font-size: 1.125rem;
+}
+label,input, textarea, button{
+   display: block;
+   width: 80%;
+}
+label{
+   color: deeppink;
+   line-height: 2;
+   margin-bottom: 0,5rem;
+   font-weight: bolder;
+   font-size: 20px;
+}
+input, textarea{
+   padding: 0.8rem;
+   margin-bottom: 1rem;
+   border: 2px dashed transparent;
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 10px;
+   transition: border-bottom-right-radius, border-top-left-radius, box-shadow 0.2s;
+}
+textarea{
+   min-height: 10rem;
+   resize: vertical;
+}
+input:hover, input:focus, textarea:hover, textarea:focus{
+   outline: none;
+   border-color: plum;
+   box-shadow:  6px 7px plum;
+}
+button{
+   display: block;
+   padding: 1rem;
+   padding-left: 1rem;
+   color: hotpink;
+   background-color: deepskyblue;
+   font: inherit;
+   text-size:30px;
+   font-weight: bolder;
+   text-transform: uppercase;
+   border: none;
+   cursor: pointer;
+   border-radius: 10px;
+   transition: 0.4s;
+}
+
+/* Rodapé */
+
+footer{
+   height: auto;
+   background: plum;
+   border-bottom: 5px plum solid;
+   width: 102%;
+}
+#fontes{
+   float: center;
+   align-content: space-around;
+}
+a.font{
+   color: blanchedalmond;
+}
+h4{
+   font-size: 20px;
+}
