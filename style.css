@@ -3,6 +3,7 @@ body{
    background: mediumpurple;
    margin: 0 0 0 0;
    font-family: 'Courier New', Courier, monospace;
+   text-indent: 10px;
 }
 a{
    text-decoration-line: none;
@@ -11,22 +12,18 @@ a{
 ul{
    list-style:none;
    display: flex;
-   margin-right: 1rem;
+   margin-right: 20px;
 }
-p{
-   font-size: 25px;
-   font-weight: 350pt;
-   align-self: justify ;
-}
+
 
 /* Menu */
 header{
    background: yellowgreen;
-   width: 100%;
+   width: 106%;
    margin-top: -2%;
    height: 120px;
    border: 10px yellowgreen solid;
-   border-left: 10px yellowgreen solid;
+   border-right: 10px yellowgreen solid;
 }
 h1{
    margin-left: 45%;
@@ -34,8 +31,8 @@ h1{
    padding-top: 2.5%;
 }
 a.menu{
-   border: 3px lightblue inset;
-   margin-right: 0.9rem;
+   border: 4px lightblue inset;
+   margin-right: 40% ;
    border-radius: 30px;
    background-color: lightblue;
    color: black;
@@ -44,7 +41,8 @@ a.menu{
    margin-top: -70%;
 }
 #navegador{
-   margin-right:30%;
+   margin-right:20%;
+   width: 50%;
 }
 
 /* Resumo pessoal */
@@ -58,6 +56,14 @@ a.menu{
 .centro{
    font-size: 35px;
 }
+p#self{
+   font-size: 20px;
+   font-weight: 350pt;
+   align-self: justify;
+   margin: 20px;
+}
+
+
 
 /* Ícones  */
 .icon1,.icon2,.icon3{
@@ -84,16 +90,17 @@ a.menu{
 
 /* projetos */
 #cardapio, #curriculo, #joan{
-   width: 75%;
+   width: 50%;
 }
 #projetos{
    margin-top: 3%;
-   display: flex;
-   height: 320px;
+   margin-bottom: 3%;
+   display: grid;
+   height: 100%;
    width: auto;
    flex-direction: nowrap;
    align-content: space-around;
-   padding-left: 1rem;
+   margin-left: 10%;
 }
 .item1,.item2,.item3{
    border: 10px cadetblue groove;
@@ -102,6 +109,7 @@ a.menu{
    flex: 10%;
    border-top-left-radius: 10px;
    border-bottom-right-radius: 10px;
+   margin-top: 3%;
 }
 projeto .img{
    width: 40px;
@@ -126,6 +134,17 @@ projeto .img{
 
 }
 
+.sobre{
+   border: 9px cadetblue inset;
+   width: 50%;
+   position: relative;
+   background-color: cadetblue;
+   margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-content: center;
+  margin-left: 3%;
+}
+
 /* CONTATO */
 .cont{
    margin-top: 5rem;
@@ -142,6 +161,8 @@ projeto .img{
    justify-content: center;
    flex-direction: column;
    margin-left: 2rem;
+   margin-top: 5%;
+   margin-bottom: 3%;
 }
 .form{
    width: 50%;
@@ -153,6 +174,7 @@ label,input, textarea, button{
    width: 80%;
 }
 label{
+   text-shadow: 3px 5px 4px skyblue;
    color: deeppink;
    line-height: 2;
    margin-bottom: 0,5rem;
@@ -192,20 +214,43 @@ button{
    transition: 0.4s;
 }
 
+/* Area do botao */
+#seta{
+   width: 2.5rem;
+   align-content: center;
+   position: fixed ;
+   z-index: 1;
+   right: 5%;
+   left: 84%;
+   top: 30%;
+   border-radius: 25px;
+}
+
 /* Rodapé */
 
+p.fonte{
+   font-size: 15px;
+   font-weight: 350pt;
+   align-self: justify;
+   margin: 20px;
+}
+
 footer{
+  /* margin-topauto*/
    height: auto;
    background: plum;
-   border-bottom: 5px plum solid;
-   width: 102%;
+   width: 106%;
+   border-right: 20px plum solid;
+   border-bottom: 20px plum solid;
+   border-top: 10px plum solid;
+   line-height: 0.5;
 }
 #fontes{
-   float: center;
    align-content: space-around;
 }
 a.font{
    color: blanchedalmond;
+   
 }
 h4{
    font-size: 20px;

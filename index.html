@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Portfólio</title>
+   
+   <link rel="icon" type="image/x-icon" href="logo_transparent-1.png">
+   
+  <title>Mariana Lemos</title>
   
   <!-- HTML -->
   
@@ -18,9 +20,9 @@
 <body>
    <!--MENU-->
    <header>
-      <div>
+      <div id="navegador">
          <h1 id="volta">Portfólio</h1>
-         <ul id="navegador">
+         <ul>
             <li> <a class="menu" href="#pessoa">👩‍💻</a></li>
             <li><a class="menu" href="#icones">Conhecimentos</a></li>
             <li><a class="menu" href="#projetos">Projetos</a></li>
@@ -29,7 +31,9 @@
       </div>
       
    </header>
-      
+   
+<a href="#volta"><img id="seta" src="up-arrow-solid-circular-button_icon-icons.com_72897.svg" alt="volte para o inicio"></a>
+
       <!--Resumo Pessoal-->
    
   <div class="pessoa">
@@ -42,7 +46,7 @@
       
       <h3 >👩‍💻Sobre mim</h3>
       
-      <p>Brasileira, soteropolitana a 26 anos, fã da cultura chinesa e japonesa.</p>
+      <p id="self">Brasileira, soteropolitana a 26 anos, fã da cultura chinesa e japonesa.</p>
       
       <p></p>
    </div>
@@ -91,25 +95,39 @@
       <div id="projetos" class="item">
          <div class= "pro">
             <img id="curriculo" class="item1" src="curriculo.jpg" alt="projeto n°1">
+               <div class="sobre">
+                  <h5 class="coment"> Foi o primeiro projeto que fiz muito de html e 1% de css. Foi bastante simples fazer ele, apesar do receio inicial.</h5>
+               </div>
+
             <div class="links">
-               <div class="l1"><a href="https://github.com/marilemos97/ElasnaTech" target="blank"><img class="site" src="git_repository_icon_207309.svg" alt=""></a></div>
-               <div class="l1"><a href="https://marilemos97.github.io/ElasnaTech/"blank target="blank"><img class="site" src="web_development_coding_code_browse_browser_icon-icons.com_59980.svg" alt=""></a></div>
+               <div class="l1"><a href="https://github.com/marilemos97/ElasnaTech" target="blank"><img class="site" src="git_repository_icon_207309.svg" alt="link para o repositório"></a></div>
+               <div class="l1"><a href="https://marilemos97.github.io/ElasnaTech/"blank target="blank"><img class="site" src="web_development_coding_code_browse_browser_icon-icons.com_59980.svg" alt="link para acessar página do projeto"></a></div>
             </div>
          </div>
          
          <div class="pro">
             <img id="cardapio" class="item2" src="cardapio.jpg" alt="projeto n°2">
+               <div class="sobre">
+                  <h5 class="coment">Como foi o segundo projeto foi mais simples fazer ele,  tive dificuldade em decidir que tipo de refeição e escolhi uma lanchonete natural, pois o tipo de comida que você come hoje, influencia como vai ser seu futuro.
+                  Com ele experenciei mais do CSS e CSS Flexbox.</h5>
+               </div>
+
             <div class="links">
-               <div class="l1"><a href="https://github.com/marilemos97/cardapiocsshtml" target="blank"><img class="site" src="git_repository_icon_207309.svg" alt=""></a></div>
-               <div class="l1"><a href="https://marilemos97.github.io/cardapiocsshtml/" target="blank"><img class="site" src="web_development_coding_code_browse_browser_icon-icons.com_59980.svg" alt=""></a></div>
+               <div class="l1"><a href="https://github.com/marilemos97/cardapiocsshtml" target="blank"><img class="site" src="git_repository_icon_207309.svg" alt="link para o repositório"></a></div>
+               <div class="l1"><a href="https://marilemos97.github.io/cardapiocsshtml/" target="blank"><img class="site" src="web_development_coding_code_browse_browser_icon-icons.com_59980.svg" alt="link para aceesar pagina do projeto"></a></div>
             </div>
          </div>
          
          <div class="pro">
+            
             <img id="joan" class="item3" src="elasinspiram.jpg"  alt="projeto n°3">
+                  <div class="sobre">
+                  <h5 class="coment">Esse projeto é bem simples só com html e css. E escolhi a Joan Clarke por ela ser como muitas mulheres, uma mulher de coragem por não deixar as imposições da sociedade reprimissem seu potencial.</h5>
+               </div>
+
             <div class="links">
-               <div class="l1"><a href="https://github.com/marilemos97/elasinspiram" target="blank"><img class="site" src="git_repository_icon_207309.svg" alt=""></a></div>
-               <div class="l1"><a href="https://marilemos97.github.io/elasinspiram/" target="blank"><img class="site" src="web_development_coding_code_browse_browser_icon-icons.com_59980.svg" alt=""></a></div>
+               <div class="l1"><a href="https://github.com/marilemos97/elasinspiram" target="blank"><img class="site" src="git_repository_icon_207309.svg" alt="link para o repositório"></a></div>
+               <div class="l1"><a href="https://marilemos97.github.io/elasinspiram/" target="blank"><img class="site" src="web_development_coding_code_browse_browser_icon-icons.com_59980.svg" alt="link para acessar pagina do projeto"></a></div>
             </div>
          </div>
       </div>
@@ -127,23 +145,31 @@
          <button type="submit">Enviar</button>
       </form>
    </div>
-<div id="voltacima">
-      <a href="#volta">oiii</a>
-   </div>
    <!--Rodapé-->
+
 <footer>
          
          
          <div id="fontes">
             <h4>Fontes:</h4>
-            <p><a class="font" link href="https://icon-icons.com"> Site dos ícones</a></p>
-            <p><a class="font" href="https://www.pexels.com/pt-br/foto/black-iphone-4-263564/">Site da imagem em contato.</a></p>
+            <p class="fonte"><a class="font" link href="https://icon-icons.com"> Site dos ícones</a></p>
+            <p class="fonte"><a class="font" href="https://www.pexels.com/pt-br/foto/black-iphone-4-263564/">Site da imagem em contato.</a></p>
          </div>
-         
+         <h5>Feito por Mariana Lemos Baptista de Souza em 2023 </h5>
       </footer>
-    
-
+      
   <!-- Project -->
   <script src="main.js"></script>
+  
+  <div vw class="enabled">
+     <div vw-access-button class="active"></div>
+     <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+     </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+     new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 </body>
 </html>
